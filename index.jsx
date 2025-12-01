@@ -1,5 +1,9 @@
+import { createList } from "react-dom/clients"
 
-import { createRoot } from "react-dom/clients"
-
-const root = createRoot(document.getElementById("root"))
-root.render(<h1>Hello, world</h1>)
+createList(document.querySelector("#root")).render(
+    <ul>
+        <li>test</li>
+        <li>test2</li>
+        <li>test3</li>
+    </ul>
+)
