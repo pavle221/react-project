@@ -8,7 +8,7 @@ function HeaderTest() {
       <h2>React test header 2</h2>
     </div>,
     <div>
-
+      <h3>React header 3</h3>
     </div>
   )
 }
