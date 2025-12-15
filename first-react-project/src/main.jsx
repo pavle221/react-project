@@ -6,5 +6,4 @@ import HeaderTest from './assets/Header.jsx'
 
 createRoot(document.getElementById('root')).render(
   <HeaderTest/>
- 
 )
